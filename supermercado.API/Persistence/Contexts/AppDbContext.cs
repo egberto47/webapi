@@ -1,15 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using supermercado.API.Domain.Models;
+
 namespace supermercado.API.Persistence.Contexts
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+            public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
             public DbSet<Categoria> Categorias { get; set; }
             public DbSet<Produto> Produtos { get; set; }
 
             protected override void OnModelCreating (ModelBuilder builder)
             {
+                base.OnModelCreating(builder);
                 builder.Entity<Categoria>().ToTable("Categorias");
                 builder.Entity<Categoria>().HasKey(p => p.Id);
                 builder.Entity<Categoria>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
@@ -29,6 +31,5 @@ namespace supermercado.API.Persistence.Contexts
                 builder.Entity<Produto>().Property(p => p.UnidadeMedida).IsRequired();
             }
 
-        }
     }
 }

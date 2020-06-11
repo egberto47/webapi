@@ -22,11 +22,13 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Supermercado.API/1.0.0": {
+      "supermercado.API/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore.Design": "3.1.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.5",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -289,10 +291,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Supermercado.API.dll": {}
+          "supermercado.API.dll": {}
         },
         "compile": {
-          "Supermercado.API.dll": {}
+          "supermercado.API.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -503,6 +505,20 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27007"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.5"
@@ -512,6 +528,9 @@
             "assemblyVersion": "3.1.5.0",
             "fileVersion": "3.100.520.27007"
           }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.5": {
@@ -2640,7 +2659,7 @@
     }
   },
   "libraries": {
-    "Supermercado.API/1.0.0": {
+    "supermercado.API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2812,6 +2831,13 @@
       "sha512": "sha512-Bo5IVeCueESgeADKth/w9+IIwhMb1FgNrgB/egnHoTudnoZFffxPo/HVp8R5uyDIkBkEkfD7pTLy5szMyc8c1w==",
       "path": "microsoft.entityframeworkcore.design/3.1.5",
       "hashPath": "microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WBgp8zQHtMJy1wdPCzh6lbXlGhRW+S98nN/PXsDvSk/5q3Ev6Oz5wBg+K98OUa4jJCz53o15vqRmPmVFgxuNbw==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.5",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
       "type": "package",

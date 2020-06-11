@@ -39,3 +39,6 @@ C:\Cursos\Netcore\Supermercado.API\bin\Debug\netcoreapp3.1\System.Collections.Im
 C:\Cursos\Netcore\Supermercado.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Cursos\Netcore\supermercado.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Cursos\Netcore\supermercado.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Cursos\Netcore\supermercado.API\obj\Debug\netcoreapp3.1\supermercado.API.csproj.CoreCompileInputs.cache
+C:\Cursos\Netcore\supermercado.API\obj\Debug\netcoreapp3.1\supermercado.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Cursos\Netcore\supermercado.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll

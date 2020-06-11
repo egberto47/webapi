@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8VAWC1tsitZC5x/jkh5ZM0ocBGogzbjuFDXs3NwZnAsS/8WVhpcpueWwBjnc3SAqJpdSjNQEUuESvb8AXqk78g==",
+  "dgSpecHash": "xcRVoyqFfSW8k9avPm43V0dBhA4cJELUyQB6t2odz9CwEmkegwoL23QlkhG7hxSEAAvFUmhfuZzxmFyOsOy/Gg==",
   "success": true,
   "projectFilePath": "C:\\Cursos\\Netcore\\supermercado.API\\supermercado.API.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.5\\microsoft.entityframeworkcore.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.5\\microsoft.entityframeworkcore.analyzers.3.1.5.nupkg.sha512",
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.5\\microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512",
+    "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.5\\microsoft.entityframeworkcore.inmemory.3.1.5.nupkg.sha512",
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.5\\microsoft.entityframeworkcore.relational.3.1.5.nupkg.sha512",
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\ZUP-871BH\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.5\\microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
